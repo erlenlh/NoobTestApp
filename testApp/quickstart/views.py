@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.contrib.auth.models import User, Group
 from testApp.quickstart.models import Currency
 from rest_framework import viewsets
-from testApp.quickstart.serializers import GroupSerializer, UserSerializer
+from testApp.quickstart.serializers import GroupSerializer, UserSerializer, CurrencySerializer
 
 # Create your views here.
 
